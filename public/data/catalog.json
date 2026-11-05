@@ -1,0 +1,5863 @@
+[
+ {
+  "slug": "class-9",
+  "title": "Computer Science Foundation – Class 9 (with C++)",
+  "chapters": [
+   {
+    "n": 1,
+    "title": "Introduction to Computers",
+    "part": "Part A — Computer Fundamentals",
+    "lessons": [
+     {
+      "id": "1-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-2",
+      "title": "1.1 What is a computer?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-3",
+      "title": "1.2 Characteristics of a computer",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-4",
+      "title": "1.3 History of computers",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-5",
+      "title": "1.4 Types of computers",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-6",
+      "title": "1.5 Block diagram of a computer",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-7",
+      "title": "1.6 Hardware, software and humanware",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-8",
+      "title": "1.7 How a computer stores data: bits and bytes",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-9",
+      "title": "Workshop 1: Meet your computer",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "1-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Input, Output and Storage Devices",
+    "part": "Part A — Computer Fundamentals",
+    "lessons": [
+     {
+      "id": "2-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-2",
+      "title": "2.1 Input devices",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-3",
+      "title": "2.2 Output devices",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-4",
+      "title": "2.3 Memory and storage",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-5",
+      "title": "2.4 Ports and connectors",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-6",
+      "title": "Workshop 2: Explore devices and storage",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-7",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-8",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "2-9",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Computer Communication and Networks",
+    "part": "Part B — Networks and the Internet",
+    "lessons": [
+     {
+      "id": "3-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-2",
+      "title": "3.1 What is data communication?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-3",
+      "title": "3.2 Transmission modes",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-4",
+      "title": "3.3 Transmission media",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-5",
+      "title": "3.4 Computer network",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-6",
+      "title": "3.5 Types of networks by area",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-7",
+      "title": "3.6 Network topologies",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-8",
+      "title": "3.7 Network devices",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-9",
+      "title": "3.8 Client–server and peer-to-peer",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-10",
+      "title": "3.9 Mobile communication: 1G to 5G",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-11",
+      "title": "Workshop 3: Explore your lab network",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-12",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-13",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "3-14",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "Internet Technology",
+    "part": "Part B — Networks and the Internet",
+    "lessons": [
+     {
+      "id": "4-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-2",
+      "title": "4.1 What is the internet?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-3",
+      "title": "4.2 Important internet terms",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-4",
+      "title": "4.3 Ways to connect to the internet",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-5",
+      "title": "4.4 Internet services",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-6",
+      "title": "4.5 Using a web browser well",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-7",
+      "title": "4.6 Staying safe online",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-8",
+      "title": "Workshop 4: Using the internet smartly",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-9",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-10",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "4-11",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "title": "Operating System and Windows",
+    "part": "Part C — Software and ICT in Life",
+    "lessons": [
+     {
+      "id": "5-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-2",
+      "title": "5.1 What is an operating system?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-3",
+      "title": "5.2 Types of operating systems",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-4",
+      "title": "5.3 The Windows desktop",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-5",
+      "title": "5.4 Files and folders",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-6",
+      "title": "5.5 Settings and built-in tools",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-7",
+      "title": "Workshop 5: Organise your files",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-8",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-9",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "5-10",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "title": "Word Processing",
+    "part": "Part C — Software and ICT in Life",
+    "lessons": [
+     {
+      "id": "6-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-2",
+      "title": "6.1 What is a word processor?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-3",
+      "title": "6.2 The Word window",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-4",
+      "title": "6.3 Creating, saving and opening",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-5",
+      "title": "6.4 Editing text",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-6",
+      "title": "6.5 Formatting characters (Home → Font)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-7",
+      "title": "6.6 Formatting paragraphs (Home → Paragraph)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-8",
+      "title": "6.7 Page layout (Layout tab)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-9",
+      "title": "6.8 Inserting objects (Insert tab)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-10",
+      "title": "6.9 Mail Merge",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-11",
+      "title": "6.10 Printing",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-12",
+      "title": "Workshop 6: Create a formatted application and a timetable",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-13",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-14",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "6-15",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 7,
+    "title": "Spreadsheets and Presentations",
+    "part": "Part C — Software and ICT in Life",
+    "lessons": [
+     {
+      "id": "7-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-2",
+      "title": "7.1 What is a spreadsheet?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-3",
+      "title": "7.2 Basic terms",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-4",
+      "title": "7.3 Formulas",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-5",
+      "title": "7.4 Functions",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-6",
+      "title": "7.5 Formatting a worksheet",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-7",
+      "title": "7.6 Sorting, filtering and charts",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-8",
+      "title": "7.7 What is presentation software?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-9",
+      "title": "Workshop 7: Marks sheet and presentation",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "7-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 8,
+    "title": "Applications of ICT",
+    "part": "Part C — Software and ICT in Life",
+    "lessons": [
+     {
+      "id": "8-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-2",
+      "title": "8.1 What is ICT?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-3",
+      "title": "8.2 ICT in education",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-4",
+      "title": "8.3 ICT in healthcare",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-5",
+      "title": "8.4 ICT in banking and finance",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-6",
+      "title": "8.5 ICT in agriculture",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-7",
+      "title": "8.6 ICT in governance (e-governance)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-8",
+      "title": "8.7 ICT in transport and travel",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-9",
+      "title": "8.8 ICT in business and commerce",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-10",
+      "title": "8.9 ICT in entertainment, media and science",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-11",
+      "title": "8.10 Emerging technologies",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-12",
+      "title": "Workshop 8: ICT around me",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-13",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-14",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "8-15",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 9,
+    "title": "Social Impacts of ICT",
+    "part": "Part C — Software and ICT in Life",
+    "lessons": [
+     {
+      "id": "9-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-2",
+      "title": "9.1 ICT and society",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-3",
+      "title": "9.2 The digital divide",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-4",
+      "title": "9.3 Cyber crime and cyber safety",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-5",
+      "title": "9.4 Cyber laws in India",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-6",
+      "title": "9.5 Intellectual property and ethics",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-7",
+      "title": "9.6 Netiquette and digital citizenship",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-8",
+      "title": "9.7 Health and ergonomics",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-9",
+      "title": "9.8 E-waste and green computing",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-10",
+      "title": "Workshop 9: Be a smart digital citizen",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-11",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-12",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "9-13",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 10,
+    "title": "Getting Started with C++",
+    "part": "Part D — Programming with C++",
+    "lessons": [
+     {
+      "id": "10-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-2",
+      "title": "10.1 Programs and programming languages",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-3",
+      "title": "10.2 Algorithms and flowcharts",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-4",
+      "title": "10.3 Introducing C++",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-5",
+      "title": "10.4 Your first C++ program",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "10-6",
+      "title": "10.5 Output with cout and escape sequences",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "10-7",
+      "title": "10.6 Variables, data types and constants",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "10-8",
+      "title": "10.7 Operators",
+      "kind": "lesson",
+      "minutes": 6,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "10-9",
+      "title": "10.8 Types of errors",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-10",
+      "title": "Workshop 10: Your first programs",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-11",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-12",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "10-13",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 11,
+    "title": "Making Decisions in C++",
+    "part": "Part D — Programming with C++",
+    "lessons": [
+     {
+      "id": "11-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-2",
+      "title": "11.1 Why programs need decisions",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-3",
+      "title": "11.2 The if statement",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "11-4",
+      "title": "11.3 The if-else statement",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "11-5",
+      "title": "11.4 The else-if ladder",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "11-6",
+      "title": "11.5 Nested if",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "11-7",
+      "title": "11.6 The switch statement",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "11-8",
+      "title": "11.7 The conditional (ternary) operator",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "11-9",
+      "title": "11.8 Common mistakes",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-10",
+      "title": "Workshop 11: Decisions in action",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-11",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-12",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "11-13",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "title": "Loops in C++",
+    "part": "Part D — Programming with C++",
+    "lessons": [
+     {
+      "id": "12-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-2",
+      "title": "12.1 Why loops?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-3",
+      "title": "12.2 The for loop",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "12-4",
+      "title": "12.3 The while loop",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "12-5",
+      "title": "12.4 The do-while loop",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "12-6",
+      "title": "12.5 break and continue",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "12-7",
+      "title": "12.6 Nested loops",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "12-8",
+      "title": "12.7 Infinite loops and common mistakes",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-9",
+      "title": "Workshop 12: Loop lab",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "12-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "12-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 13,
+    "title": "Project — Report Card Generator",
+    "part": "Part D — Programming with C++",
+    "lessons": [
+     {
+      "id": "13-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-2",
+      "title": "13.1 The problem",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-3",
+      "title": "13.2 Planning: input, process, output",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-4",
+      "title": "13.3 Algorithm",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-5",
+      "title": "13.4 The program",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "13-6",
+      "title": "13.5 Sample run",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "13-7",
+      "title": "13.6 How the program works",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-8",
+      "title": "13.7 Testing the program",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-9",
+      "title": "13.8 Ideas to extend the project",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-10",
+      "title": "Workshop 13: Build, test and present",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-11",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-12",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "13-13",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-14",
+      "title": "Viva Questions",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-15",
+      "title": "More Project Ideas",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   }
+  ],
+  "stats": {
+   "quiz": 260,
+   "answered": 260
+  },
+  "images": 13
+ },
+ {
+  "slug": "class-10",
+  "title": "Computer Science Foundation – Class 10 (with C++)",
+  "chapters": [
+   {
+    "n": 1,
+    "title": "Getting Started with Spreadsheets",
+    "part": "Part A — Office Productivity",
+    "lessons": [
+     {
+      "id": "1-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-2",
+      "title": "1.1 What is a spreadsheet?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-3",
+      "title": "1.2 Starting Excel",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-4",
+      "title": "1.3 The Excel window",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-5",
+      "title": "1.4 Basic terms",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-6",
+      "title": "1.5 Moving around a worksheet",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-7",
+      "title": "1.6 Entering and editing data",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-8",
+      "title": "1.7 AutoFill and Flash Fill",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-9",
+      "title": "1.8 Working with rows, columns and worksheets",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-10",
+      "title": "1.9 Saving and opening workbooks",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-11",
+      "title": "Workshop 1: Build a class register",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-12",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-13",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "1-14",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Formatting Worksheets",
+    "part": "Part A — Office Productivity",
+    "lessons": [
+     {
+      "id": "2-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-2",
+      "title": "2.1 Why format a worksheet?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-3",
+      "title": "2.2 Font formatting",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-4",
+      "title": "2.3 Alignment",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-5",
+      "title": "2.4 Number formats",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-6",
+      "title": "2.5 Borders, fill and styles",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-7",
+      "title": "2.6 Conditional formatting",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-8",
+      "title": "2.7 Useful worksheet tools",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-9",
+      "title": "2.8 Page setup and printing",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-10",
+      "title": "Workshop 2: Format a professional result sheet",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-11",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-12",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "2-13",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Formulas, Functions, Charts and Pictures",
+    "part": "Part A — Office Productivity",
+    "lessons": [
+     {
+      "id": "3-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-2",
+      "title": "3.1 Formulas",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-3",
+      "title": "3.2 Functions",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-4",
+      "title": "3.3 Sorting and filtering",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-5",
+      "title": "3.4 Charts",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-6",
+      "title": "3.5 Pictures and other objects",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-7",
+      "title": "Workshop 3: Class result analysis",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-8",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-9",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "3-10",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "Presentations with PowerPoint",
+    "part": "Part A — Office Productivity",
+    "lessons": [
+     {
+      "id": "4-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-2",
+      "title": "4.1 What is presentation software?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-3",
+      "title": "4.2 The PowerPoint window",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-4",
+      "title": "4.3 Building slides",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-5",
+      "title": "4.4 Inserting content (Insert tab)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-6",
+      "title": "4.5 Transitions and animations",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-7",
+      "title": "4.6 Views and delivering the show",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-8",
+      "title": "4.7 Saving, printing and sharing",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-9",
+      "title": "4.8 Tips for an effective presentation",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-10",
+      "title": "Workshop 4: \"Digital India in My Village\" presentation",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-11",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-12",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "4-13",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "title": "Picture Editing",
+    "part": "Part A — Office Productivity",
+    "lessons": [
+     {
+      "id": "5-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-2",
+      "title": "5.1 Digital images",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-3",
+      "title": "5.2 Image file formats",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-4",
+      "title": "5.3 Picture editing software",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-5",
+      "title": "5.4 Common editing operations",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-6",
+      "title": "5.5 Pictures in Office documents",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-7",
+      "title": "5.6 Editing responsibly",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-8",
+      "title": "Workshop 5: Prepare photos for an online form",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-9",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-10",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "5-11",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "title": "Cyber Crime and Cyber Law",
+    "part": "Part B — Cyber Safety and E-Commerce",
+    "lessons": [
+     {
+      "id": "6-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-2",
+      "title": "6.1 Cyberspace and cyber crime",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-3",
+      "title": "6.2 Common cyber crimes",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-4",
+      "title": "6.3 Cyber law",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-5",
+      "title": "6.4 Protecting yourself",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-6",
+      "title": "Workshop 6: Cyber safety audit",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-7",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-8",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "6-9",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 7,
+    "title": "E-Commerce",
+    "part": "Part B — Cyber Safety and E-Commerce",
+    "lessons": [
+     {
+      "id": "7-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-2",
+      "title": "7.1 What is e-commerce?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-3",
+      "title": "7.2 Types of e-commerce",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-4",
+      "title": "7.3 E-commerce business models",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-5",
+      "title": "7.4 How an online purchase works",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-6",
+      "title": "7.5 Advantages and limitations",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-7",
+      "title": "7.6 Rights of online shoppers",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-8",
+      "title": "Workshop 7: Compare and plan an online purchase",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-9",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-10",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "7-11",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 8,
+    "title": "E-Business Security, Privacy and Legal Issues",
+    "part": "Part B — Cyber Safety and E-Commerce",
+    "lessons": [
+     {
+      "id": "8-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-2",
+      "title": "8.1 Why security matters in e-business",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-3",
+      "title": "8.2 Security threats",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-4",
+      "title": "8.3 Goals of information security",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-5",
+      "title": "8.4 Security measures",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-6",
+      "title": "8.5 Privacy",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-7",
+      "title": "8.6 Legal issues in e-business",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-8",
+      "title": "Workshop 8: Check the security and privacy of websites",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-9",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-10",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "8-11",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 9,
+    "title": "E-Commerce Payment Systems",
+    "part": "Part B — Cyber Safety and E-Commerce",
+    "lessons": [
+     {
+      "id": "9-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-2",
+      "title": "9.1 Electronic payment systems",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-3",
+      "title": "9.2 Who is involved in an online card payment?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-4",
+      "title": "9.3 Payment methods",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-5",
+      "title": "9.4 Comparing payment methods",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-6",
+      "title": "9.5 Benefits and risks of digital payments",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-7",
+      "title": "Workshop 9: Understanding digital payments safely",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-8",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-9",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "9-10",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 10,
+    "title": "Application and System Software",
+    "part": "Part C — Software",
+    "lessons": [
+     {
+      "id": "10-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-2",
+      "title": "10.1 What is software?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-3",
+      "title": "10.2 Classification of software",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-4",
+      "title": "10.3 System software",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-5",
+      "title": "10.4 Application software",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-6",
+      "title": "10.5 Software licences",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-7",
+      "title": "10.6 Installing, updating and removing software",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-8",
+      "title": "10.7 How software is developed",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-9",
+      "title": "Workshop 10: Explore the software on your computer",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "10-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 11,
+    "title": "Computer Network Concepts",
+    "part": "Part D — Networks and the Internet",
+    "lessons": [
+     {
+      "id": "11-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-2",
+      "title": "11.1 Revision: what is a network?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-3",
+      "title": "11.2 Switching: how data finds its way",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-4",
+      "title": "11.3 Reference models: OSI and TCP/IP",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-5",
+      "title": "11.4 Addresses on a network",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-6",
+      "title": "11.5 Network protocols",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-7",
+      "title": "11.6 Measuring network performance",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-8",
+      "title": "11.7 Wired and wireless technologies",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-9",
+      "title": "Workshop 11: Investigate your network",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "11-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "title": "The Web and Email",
+    "part": "Part D — Networks and the Internet",
+    "lessons": [
+     {
+      "id": "12-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-2",
+      "title": "12.1 The web",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-3",
+      "title": "12.2 Your first web page in HTML",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "12-4",
+      "title": "12.3 Domain names, hosting and search engines",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-5",
+      "title": "12.4 What is email?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-6",
+      "title": "12.5 How email works",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-7",
+      "title": "12.6 Parts and features of an email",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-8",
+      "title": "12.7 Email etiquette and safety",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-9",
+      "title": "Workshop 12: Build a web page and master email",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "12-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 13,
+    "title": "Viruses and Antivirus",
+    "part": "Part D — Networks and the Internet",
+    "lessons": [
+     {
+      "id": "13-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-2",
+      "title": "13.1 Malware and viruses",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-3",
+      "title": "13.2 How a virus works",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-4",
+      "title": "13.3 Types of viruses",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-5",
+      "title": "13.4 Other malware",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-6",
+      "title": "13.5 Antivirus software",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-7",
+      "title": "13.6 Prevention and recovery",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-8",
+      "title": "Workshop 13: Protect your computer",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-9",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-10",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "13-11",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 14,
+    "title": "The Internet Connections and Services",
+    "part": "Part D — Networks and the Internet",
+    "lessons": [
+     {
+      "id": "14-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "14-2",
+      "title": "14.1 Structure of the internet",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "14-3",
+      "title": "14.2 Types of internet connection",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "14-4",
+      "title": "14.3 Internet services",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "14-5",
+      "title": "14.4 Who manages the internet?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "14-6",
+      "title": "14.5 The internet in India",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "14-7",
+      "title": "14.6 Using the internet wisely",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "14-8",
+      "title": "Workshop 14: Know your connection",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "14-9",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "14-10",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "14-11",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 15,
+    "title": "Functions in C++",
+    "part": "Part E — Programming with C++",
+    "lessons": [
+     {
+      "id": "15-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "15-2",
+      "title": "15.1 Why functions?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "15-3",
+      "title": "15.2 Library functions",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "15-4",
+      "title": "15.3 User-defined functions",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "15-5",
+      "title": "15.4 Passing arguments: by value and by reference",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "15-6",
+      "title": "15.5 Default arguments",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "15-7",
+      "title": "15.6 Function overloading",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "15-8",
+      "title": "15.7 Scope: local and global variables",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "15-9",
+      "title": "15.8 Recursion",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "15-10",
+      "title": "15.9 Putting it together: a menu program",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "15-11",
+      "title": "Workshop 15: Building with functions",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "15-12",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "15-13",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "15-14",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 16,
+    "title": "Arrays and Strings",
+    "part": "Part E — Programming with C++",
+    "lessons": [
+     {
+      "id": "16-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "16-2",
+      "title": "16.1 What is an array?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "16-3",
+      "title": "16.2 Reading and processing an array with loops",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "16-4",
+      "title": "16.3 Finding the largest and smallest element",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "16-5",
+      "title": "16.4 Searching: linear search",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "16-6",
+      "title": "16.5 Sorting: bubble sort",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "16-7",
+      "title": "16.6 Passing arrays to functions",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "16-8",
+      "title": "16.7 Two-dimensional arrays",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "16-9",
+      "title": "16.8 Strings",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "16-10",
+      "title": "16.9 Processing a string character by character",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "16-11",
+      "title": "16.10 Using an array as a set of counters",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "16-12",
+      "title": "Workshop 16: Arrays and strings in practice",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "16-13",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "16-14",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "16-15",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 17,
+    "title": "Project — Shop Billing and Stock Manager",
+    "part": "Part E — Programming with C++",
+    "lessons": [
+     {
+      "id": "17-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "17-2",
+      "title": "17.1 The problem",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "17-3",
+      "title": "17.2 Planning the program",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "17-4",
+      "title": "17.3 Algorithm for making a bill",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "17-5",
+      "title": "17.4 The program",
+      "kind": "lesson",
+      "minutes": 5,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "17-6",
+      "title": "17.5 Sample run",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "17-7",
+      "title": "17.6 Testing the program",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "17-8",
+      "title": "17.7 Improving the project",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "17-9",
+      "title": "Workshop 17: Build, test and present",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "17-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "17-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 10,
+      "hasCode": false,
+      "quiz": 20
+     },
+     {
+      "id": "17-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "17-13",
+      "title": "Viva Questions with Short Answers",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "17-14",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   }
+  ],
+  "stats": {
+   "quiz": 340,
+   "answered": 340
+  },
+  "images": 17
+ },
+ {
+  "slug": "class-11",
+  "title": "Computer Science with C++ - Class 11",
+  "chapters": [
+   {
+    "n": 1,
+    "title": "Computer System",
+    "part": null,
+    "lessons": [
+     {
+      "id": "1-1",
+      "title": "Learning Objectives",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-2",
+      "title": "1.1 Introduction to a Computer",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-3",
+      "title": "1.2 Components of a Computer System",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-4",
+      "title": "1.3 Evolution of Computers",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-5",
+      "title": "1.4 Computer Memory",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-6",
+      "title": "1.5 Data Transfer Between Memory and CPU",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-7",
+      "title": "1.6 Microprocessors",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-8",
+      "title": "1.7 Data and Information",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-9",
+      "title": "1.8 Software",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-10",
+      "title": "1.9 Operating System",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-11",
+      "title": "1.10 From C++ Code to Machine Code",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-12",
+      "title": "Points to Remember",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-13",
+      "title": "Solved Examples",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-14",
+      "title": "Workshop (Lab Activities)",
+      "kind": "workshop",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-15",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 13,
+      "hasCode": false,
+      "quiz": 25
+     },
+     {
+      "id": "1-16",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 17,
+      "hasCode": true,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Encoding Schemes and Number System",
+    "part": null,
+    "lessons": [
+     {
+      "id": "2-1",
+      "title": "Learning Objectives",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-2",
+      "title": "2.1 Introduction",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-3",
+      "title": "2.2 Encoding Schemes",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-4",
+      "title": "2.3 Number Systems",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-5",
+      "title": "2.4 Conversions",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-6",
+      "title": "2.5 Number Conversion Programs in C++",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "2-7",
+      "title": "Workshop (Lab Activities)",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-8",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 8,
+      "hasCode": false,
+      "quiz": 15
+     },
+     {
+      "id": "2-9",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 7,
+      "hasCode": true,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Emerging Trends",
+    "part": null,
+    "lessons": [
+     {
+      "id": "3-1",
+      "title": "Learning Objectives",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-2",
+      "title": "3.1 Introduction",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-3",
+      "title": "3.2 Artificial Intelligence (AI)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-4",
+      "title": "3.3 Immersive Experiences",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-5",
+      "title": "3.4 Robotics",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-6",
+      "title": "3.5 Big Data and Data Analytics",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-7",
+      "title": "3.6 Internet of Things (IoT)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-8",
+      "title": "3.7 Cloud Computing",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-9",
+      "title": "3.8 Grid Computing",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-10",
+      "title": "3.9 Blockchain",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-11",
+      "title": "3.10 Other Emerging Technologies",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-12",
+      "title": "3.11 C++ Behind the Trends",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "3-13",
+      "title": "Workshop (Lab Activities)",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-14",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 7,
+      "hasCode": false,
+      "quiz": 13
+     },
+     {
+      "id": "3-15",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 6,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "Introduction to Problem Solving",
+    "part": null,
+    "lessons": [
+     {
+      "id": "4-1",
+      "title": "Learning Objectives",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-2",
+      "title": "4.1 Introduction",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-3",
+      "title": "4.2 Steps for Problem Solving",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-4",
+      "title": "4.3 Algorithm",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "4-5",
+      "title": "4.4 Flowchart",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-6",
+      "title": "4.5 Pseudocode",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "4-7",
+      "title": "4.6 Flow of Control in Algorithms",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-8",
+      "title": "4.7 Verifying Algorithms (Dry Run)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-9",
+      "title": "4.8 Comparison of Algorithms",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-10",
+      "title": "4.9 Coding: From Algorithm to C++",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "4-11",
+      "title": "4.10 Decomposition",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-12",
+      "title": "Workshop (Lab Activities)",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-13",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 6,
+      "hasCode": false,
+      "quiz": 12
+     },
+     {
+      "id": "4-14",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 6,
+      "hasCode": true,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "title": "Getting Started with C++",
+    "part": null,
+    "lessons": [
+     {
+      "id": "5-1",
+      "title": "Learning Objectives",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-2",
+      "title": "5.1 Introduction to C++",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-3",
+      "title": "5.2 Structure of a C++ Program",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-4",
+      "title": "5.3 C++ Character Set and Tokens",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-5",
+      "title": "5.4 Variables and Data Types",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-6",
+      "title": "5.5 Input and Output",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-7",
+      "title": "5.6 Formatted Output with <iomanip>",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-8",
+      "title": "5.7 Operators",
+      "kind": "lesson",
+      "minutes": 5,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-9",
+      "title": "5.8 Precedence and Associativity",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-10",
+      "title": "5.9 Type Conversion",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-11",
+      "title": "5.10 Errors and Debugging",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-12",
+      "title": "Workshop (Lab Activities)",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-13",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 8,
+      "hasCode": false,
+      "quiz": 16
+     },
+     {
+      "id": "5-14",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 7,
+      "hasCode": true,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "title": "Flow of Control",
+    "part": null,
+    "lessons": [
+     {
+      "id": "6-1",
+      "title": "Learning Objectives",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-2",
+      "title": "6.1 Introduction",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-3",
+      "title": "6.2 Selection Statements",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "6-4",
+      "title": "6.3 Iteration (Loops)",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "6-5",
+      "title": "6.4 Jump Statements: break and continue",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "6-6",
+      "title": "6.5 Nested Loops",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "6-7",
+      "title": "Workshop (Lab Activities)",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "6-8",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 6,
+      "hasCode": false,
+      "quiz": 12
+     },
+     {
+      "id": "6-9",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 8,
+      "hasCode": true,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 7,
+    "title": "Functions",
+    "part": null,
+    "lessons": [
+     {
+      "id": "7-1",
+      "title": "Learning Objectives",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-2",
+      "title": "7.1 Introduction",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-3",
+      "title": "7.2 Parts of a User-Defined Function",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "7-4",
+      "title": "7.3 Four Kinds of User-Defined Functions",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "7-5",
+      "title": "7.4 Call by Value and Call by Reference",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "7-6",
+      "title": "7.5 Default Arguments",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "7-7",
+      "title": "7.6 Function Overloading",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "7-8",
+      "title": "7.7 Scope of Variables",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "7-9",
+      "title": "7.8 Library (Built-in) Functions",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "7-10",
+      "title": "7.9 Recursion (Introduction)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "7-11",
+      "title": "Workshop (Lab Activities)",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-12",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 7,
+      "hasCode": false,
+      "quiz": 14
+     },
+     {
+      "id": "7-13",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 6,
+      "hasCode": true,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 8,
+    "title": "Strings",
+    "part": null,
+    "lessons": [
+     {
+      "id": "8-1",
+      "title": "Learning Objectives",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-2",
+      "title": "8.1 Introduction",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "8-3",
+      "title": "8.2 Reading Strings",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "8-4",
+      "title": "8.3 Indexing and Traversal",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "8-5",
+      "title": "8.4 String Operators",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "8-6",
+      "title": "8.5 String Member Functions",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "8-7",
+      "title": "8.6 Character Functions ( <cctype> )",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "8-8",
+      "title": "8.7 C-Style Strings",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "8-9",
+      "title": "Workshop (Lab Activities)",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-10",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 6,
+      "hasCode": false,
+      "quiz": 12
+     },
+     {
+      "id": "8-11",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 5,
+      "hasCode": true,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 9,
+    "title": "Arrays and Vectors",
+    "part": null,
+    "lessons": [
+     {
+      "id": "9-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-2",
+      "title": "9.1 Introduction",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-3",
+      "title": "9.2 One-Dimensional Arrays",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-4",
+      "title": "9.3 Searching",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-5",
+      "title": "9.4 Sorting: Bubble Sort",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-6",
+      "title": "9.5 Two-Dimensional Arrays",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-7",
+      "title": "9.6 Vectors: Dynamic Arrays",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-8",
+      "title": "Workshop (Lab Activities)",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-9",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 6,
+      "hasCode": false,
+      "quiz": 12
+     },
+     {
+      "id": "9-10",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 7,
+      "hasCode": true,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 10,
+    "title": "Structures, Pairs and Maps",
+    "part": null,
+    "lessons": [
+     {
+      "id": "10-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-2",
+      "title": "10.1 Introduction",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-3",
+      "title": "10.2 Structures",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "10-4",
+      "title": "10.3 pair and tuple",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "10-5",
+      "title": "10.4 Maps (Dictionaries in C++)",
+      "kind": "lesson",
+      "minutes": 5,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "10-6",
+      "title": "Workshop (Lab Activities)",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-7",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 6,
+      "hasCode": false,
+      "quiz": 12
+     },
+     {
+      "id": "10-8",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 6,
+      "hasCode": true,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 11,
+    "title": "Societal Impact",
+    "part": null,
+    "lessons": [
+     {
+      "id": "11-1",
+      "title": "Learning Objectives",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-2",
+      "title": "11.1 Introduction",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-3",
+      "title": "11.2 Digital Footprint",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-4",
+      "title": "11.3 Digital Society and Netizens",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-5",
+      "title": "11.4 Data Protection",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-6",
+      "title": "11.5 Intellectual Property Rights (IPR)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-7",
+      "title": "11.6 Licensing and Open Source",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-8",
+      "title": "11.7 Cybercrime",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-9",
+      "title": "11.8 Cyber Safety",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-10",
+      "title": "11.9 Indian Information Technology Act, 2000",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-11",
+      "title": "11.10 E-Waste Management",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-12",
+      "title": "11.11 Impact on Health",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-13",
+      "title": "Workshop (Lab Activities)",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-14",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 6,
+      "hasCode": false,
+      "quiz": 12
+     },
+     {
+      "id": "11-15",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 4,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "title": "Final Project",
+    "part": null,
+    "lessons": [
+     {
+      "id": "12-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-2",
+      "title": "Project Objectives",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-3",
+      "title": "Features",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-4",
+      "title": "Concepts Used (Chapter Map)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-5",
+      "title": "Program Design (Decomposition)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "12-6",
+      "title": "Complete Source Code",
+      "kind": "lesson",
+      "minutes": 8,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "12-7",
+      "title": "Sample Run (selected screens)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "12-8",
+      "title": "How to Run",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-9",
+      "title": "Extension Ideas (for extra marks)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-10",
+      "title": "Project Report Format (to submit)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-11",
+      "title": "Evaluation Rubric (30 marks)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-12",
+      "title": "Viva Voce Questions",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   }
+  ],
+  "stats": {
+   "quiz": 155,
+   "answered": 155
+  },
+  "images": 6
+ },
+ {
+  "slug": "class-12",
+  "title": "Computer Science with C++ - Class 12",
+  "chapters": [
+   {
+    "n": 1,
+    "title": "Exception Handling",
+    "part": null,
+    "lessons": [
+     {
+      "id": "1-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-2",
+      "title": "1.1 Introduction: when programs go wrong",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-3",
+      "title": "1.2 The three keywords: try, throw, catch",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-4",
+      "title": "1.3 Throwing from a function",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-5",
+      "title": "1.4 Several catch blocks and catch(...)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-6",
+      "title": "1.5 Standard exception classes",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-7",
+      "title": "1.6 User-defined exceptions",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-8",
+      "title": "1.7 Re-throwing an exception",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-9",
+      "title": "1.8 What about Python's \"finally\"? (RAII)",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-10",
+      "title": "1.9 The noexcept specifier",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-11",
+      "title": "1.10 Python vs C++ at a glance",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-12",
+      "title": "1.11 Solved examples",
+      "kind": "lesson",
+      "minutes": 5,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-13",
+      "title": "Workshop (lab activities)",
+      "kind": "workshop",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "1-14",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "1-15",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "1-16",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 5,
+      "hasCode": true,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "File Handling",
+    "part": null,
+    "lessons": [
+     {
+      "id": "2-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-2",
+      "title": "2.1 Introduction: why do we need files?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-3",
+      "title": "2.2 File stream classes",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-4",
+      "title": "2.3 Opening and closing a file",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "2-5",
+      "title": "2.4 Working with text files",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "2-6",
+      "title": "2.5 File pointers: moving inside a file",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "2-7",
+      "title": "2.6 Binary files: storing records",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "2-8",
+      "title": "2.7 Solved examples",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "2-9",
+      "title": "Workshop",
+      "kind": "workshop",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "2-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "2-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "2-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 4,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Stack",
+    "part": null,
+    "lessons": [
+     {
+      "id": "3-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-2",
+      "title": "3.1 Introduction: data structures",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-3",
+      "title": "3.2 What is a stack?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-4",
+      "title": "3.3 Operations on a stack",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-5",
+      "title": "3.4 Implementing a stack in C++",
+      "kind": "lesson",
+      "minutes": 5,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "3-6",
+      "title": "3.5 Applications of a stack",
+      "kind": "lesson",
+      "minutes": 8,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "3-7",
+      "title": "3.6 Solved examples",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "3-8",
+      "title": "Workshop",
+      "kind": "workshop",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-9",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "3-10",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "3-11",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 4,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "Queue",
+    "part": null,
+    "lessons": [
+     {
+      "id": "4-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-2",
+      "title": "4.1 What is a queue?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-3",
+      "title": "4.2 Operations on a queue",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-4",
+      "title": "4.3 Implementing a queue with an array",
+      "kind": "lesson",
+      "minutes": 5,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "4-5",
+      "title": "4.4 Queues in the C++ Standard Library",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "4-6",
+      "title": "4.5 Solved examples",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "4-7",
+      "title": "Workshop",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-8",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "4-9",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "4-10",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 4,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "title": "Sorting",
+    "part": null,
+    "lessons": [
+     {
+      "id": "5-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-2",
+      "title": "5.1 Introduction: what is sorting?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-3",
+      "title": "5.2 Bubble sort",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-4",
+      "title": "5.3 Selection sort",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-5",
+      "title": "5.4 Insertion sort",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-6",
+      "title": "5.5 How fast is a sort? Time complexity",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-7",
+      "title": "5.6 Sorting with the C++ Standard Library",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-8",
+      "title": "5.7 Solved examples",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-9",
+      "title": "Workshop",
+      "kind": "workshop",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "5-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "5-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "5-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 4,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "title": "Searching",
+    "part": null,
+    "lessons": [
+     {
+      "id": "6-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-2",
+      "title": "6.1 Introduction: what is searching?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-3",
+      "title": "6.2 Linear search",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "6-4",
+      "title": "6.3 Binary search",
+      "kind": "lesson",
+      "minutes": 5,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "6-5",
+      "title": "6.4 Search by hashing",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "6-6",
+      "title": "6.5 Comparing the methods",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-7",
+      "title": "6.6 Searching with the C++ Standard Library",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "6-8",
+      "title": "6.7 Solved examples",
+      "kind": "lesson",
+      "minutes": 5,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "6-9",
+      "title": "Workshop",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "6-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "6-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 7,
+    "title": "Understanding Data",
+    "part": null,
+    "lessons": [
+     {
+      "id": "7-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-2",
+      "title": "7.1 Introduction: what is data?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-3",
+      "title": "7.2 Types of data",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-4",
+      "title": "7.3 Data collection",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-5",
+      "title": "7.4 Data storage",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-6",
+      "title": "7.5 Data processing",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-7",
+      "title": "7.6 Statistical techniques",
+      "kind": "lesson",
+      "minutes": 6,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "7-8",
+      "title": "7.7 Solved examples",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "7-9",
+      "title": "Workshop",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "7-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "7-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 4,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 8,
+    "title": "Database Concepts",
+    "part": null,
+    "lessons": [
+     {
+      "id": "8-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-2",
+      "title": "8.1 Introduction: keeping data in files",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-3",
+      "title": "8.2 Database and DBMS",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-4",
+      "title": "8.3 The relational data model",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-5",
+      "title": "8.4 Keys in a relational database",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-6",
+      "title": "8.5 Files in C++ vs a DBMS",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-7",
+      "title": "8.6 Solved examples",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "8-8",
+      "title": "Workshop",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-9",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "8-10",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "8-11",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 4,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 9,
+    "title": "SQL",
+    "part": null,
+    "lessons": [
+     {
+      "id": "9-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-2",
+      "title": "9.1 Introduction to SQL",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-3",
+      "title": "9.2 MySQL data types",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-4",
+      "title": "9.3 Constraints",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-5",
+      "title": "9.4 DDL: defining the structure",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-6",
+      "title": "9.5 DML: working with data",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-7",
+      "title": "9.6 SELECT: asking questions",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-8",
+      "title": "9.7 SQL functions",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-9",
+      "title": "9.8 Working with two tables: joins",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-10",
+      "title": "9.9 Connecting C++ to MySQL",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-11",
+      "title": "9.10 Solved examples",
+      "kind": "lesson",
+      "minutes": 4,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "9-12",
+      "title": "Workshop",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-13",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "9-14",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "9-15",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 4,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 10,
+    "title": "Computer Networks",
+    "part": null,
+    "lessons": [
+     {
+      "id": "10-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-2",
+      "title": "10.1 Introduction: what is a computer network?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-3",
+      "title": "10.2 Evolution of networking",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-4",
+      "title": "10.3 Types of networks",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-5",
+      "title": "10.4 Network devices",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-6",
+      "title": "10.5 Network topologies",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-7",
+      "title": "10.6 Identifying nodes on a network",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-8",
+      "title": "10.7 The Internet, the WWW, DNS and URLs",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-9",
+      "title": "10.8 Networking ideas in C++",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "10-10",
+      "title": "10.9 Solved examples",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "10-11",
+      "title": "Workshop",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-12",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "10-13",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "10-14",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 4,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 11,
+    "title": "Data Communication",
+    "part": null,
+    "lessons": [
+     {
+      "id": "11-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-2",
+      "title": "11.1 What is data communication?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-3",
+      "title": "11.2 Measuring capacity",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "11-4",
+      "title": "11.3 Types of data communication",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-5",
+      "title": "11.4 Switching techniques",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-6",
+      "title": "11.5 Transmission media",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-7",
+      "title": "11.6 Mobile telecommunication technologies",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-8",
+      "title": "11.7 Protocols",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-9",
+      "title": "11.8 Data communication ideas in C++",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "11-10",
+      "title": "11.9 Solved examples",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "11-11",
+      "title": "Workshop",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-12",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "11-13",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "11-14",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "title": "Security Aspects",
+    "part": null,
+    "lessons": [
+     {
+      "id": "12-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-2",
+      "title": "12.1 Introduction: why security?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-3",
+      "title": "12.2 Malware",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-4",
+      "title": "12.3 Antivirus software",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-5",
+      "title": "12.4 Other threats and protections",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-6",
+      "title": "12.5 Hackers and network intrusion",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-7",
+      "title": "12.6 Safe practices online",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-8",
+      "title": "12.7 Cyber law and reporting in India",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-9",
+      "title": "12.8 Security ideas in C++",
+      "kind": "lesson",
+      "minutes": 3,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "12-10",
+      "title": "12.9 Solved examples",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-11",
+      "title": "Workshop",
+      "kind": "workshop",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-12",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "12-13",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "12-14",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 3,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   },
+   {
+    "n": 13,
+    "title": "Project Based Learning",
+    "part": null,
+    "lessons": [
+     {
+      "id": "13-1",
+      "title": "Overview and goals",
+      "kind": "intro",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-2",
+      "title": "13.1 What is project-based learning?",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-3",
+      "title": "13.2 Steps of a software project",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-4",
+      "title": "13.3 Team roles and timeline",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-5",
+      "title": "13.4 Testing",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-6",
+      "title": "13.5 The project report",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-7",
+      "title": "13.6 Complete sample project: Clinic Appointment Manager",
+      "kind": "lesson",
+      "minutes": 9,
+      "hasCode": true,
+      "quiz": 0
+     },
+     {
+      "id": "13-8",
+      "title": "13.7 More project ideas",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-9",
+      "title": "13.8 Suggested evaluation rubric",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-10",
+      "title": "Summary",
+      "kind": "summary",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-11",
+      "title": "Chapter quiz",
+      "kind": "quiz",
+      "minutes": 5,
+      "hasCode": false,
+      "quiz": 10
+     },
+     {
+      "id": "13-12",
+      "title": "Practice questions",
+      "kind": "practice",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     },
+     {
+      "id": "13-13",
+      "title": "Final projects",
+      "kind": "lesson",
+      "minutes": 2,
+      "hasCode": false,
+      "quiz": 0
+     }
+    ]
+   }
+  ],
+  "stats": {
+   "quiz": 130,
+   "answered": 130
+  },
+  "images": 38
+ }
+]

@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Layout idea: Codecademy-style — navy chrome, yellow calls to action, hard offset shadows,
+   a dark split-pane workspace for code lessons and a light reading column for theory. */
+:root {
+  --navy: #10162f;
+  --yellow: #ffd300;
+  --hyper: #3a10e5;
+  --paper: #ffffff;
+  --beige: #fff0e5;
+  --line: #e2e3ea;
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  @apply bg-white text-ink font-sans antialiased;
+  font-size: 16px;
+}
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+:focus-visible {
+  outline: 3px solid var(--hyper);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 font-bold rounded-[4px] px-5 py-2.5 transition-all duration-150 select-none whitespace-nowrap;
+}
+.btn-yellow {
+  @apply btn bg-brand-yellow text-navy border-2 border-navy hover:-translate-x-[3px] hover:-translate-y-[3px] hover:shadow-hardsm;
+}
+.btn-hyper {
+  @apply btn bg-brand-hyper text-white border-2 border-brand-hyper hover:bg-[#2b0bb0];
+}
+.btn-ghost-dark {
+  @apply btn text-white border-2 border-white/70 hover:bg-white/10;
+}
+.btn-outline {
+  @apply btn text-navy border-2 border-navy hover:bg-navy hover:text-white;
+}
+.eyebrow {
+  @apply font-mono text-[12px] uppercase tracking-[0.12em] font-medium;
+}
+
+/* ---------- lesson prose ---------- */
+.prose-l {
+  @apply text-[17px] leading-[1.7];
+  max-width: 72ch;
+}
+.prose-l > * + * {
+  margin-top: 1rem;
+}
+.prose-l h2 {
+  @apply text-[26px] font-extrabold leading-tight mt-10 mb-1;
+}
+.prose-l h3 {
+  @apply text-[21px] font-bold leading-snug mt-8;
+}
+.prose-l h4 {
+  @apply text-[17px] font-bold mt-6;
+}
+.prose-l strong {
+  @apply font-bold;
+}
+.prose-l code {
+  @apply font-mono text-[0.86em] px-1.5 py-[1px] rounded-[3px];
+  background: #f0f0f4;
+  color: #b0127c;
+}
+.prose-l ul,
+.prose-l ol {
+  @apply pl-6 space-y-1.5;
+}
+.prose-l ul {
+  list-style: none;
+}
+.prose-l ul > li {
+  position: relative;
+}
+.prose-l ul > li::before {
+  content: '';
+  position: absolute;
+  left: -1.1rem;
+  top: 0.72em;
+  width: 7px;
+  height: 7px;
+  background: var(--hyper);
+  border-radius: 1px;
+  transform: rotate(45deg);
+}
+.prose-l ol {
+  list-style: decimal;
+}
+.prose-l ol > li::marker {
+  @apply font-bold font-mono text-[0.85em];
+  color: var(--hyper);
+}
+.prose-l li > ul,
+.prose-l li > ol {
+  @apply mt-1.5;
+}
+
+/* dark variant used inside the code workspace */
+.prose-dark {
+  color: #e6e7ef;
+}
+.prose-dark code {
+  background: #262f57;
+  color: #ffd300;
+}
+.prose-dark ul > li::before {
+  background: var(--yellow);
+}
+.prose-dark ol > li::marker {
+  color: var(--yellow);
+}
+.prose-dark h2,
+.prose-dark h3,
+.prose-dark h4 {
+  color: #fff;
+}
+
+.tbl {
+  @apply w-full text-[15px] border-collapse;
+  font-variant-numeric: tabular-nums;
+}
+.tbl th {
+  @apply text-left font-bold px-3.5 py-2.5 align-top;
+  background: var(--navy);
+  color: #fff;
+}
+.tbl td {
+  @apply px-3.5 py-2.5 align-top;
+  border-bottom: 1px solid var(--line);
+}
+.tbl tr:nth-child(even) td {
+  background: #f8f8fb;
+}
+.prose-dark .tbl th {
+  background: #262f57;
+}
+.prose-dark .tbl td {
+  border-color: #2c345c;
+}
+.prose-dark .tbl tr:nth-child(even) td {
+  background: #161d3d;
+}
+
+.cm-editor {
+  height: 100%;
+  font-size: 14.5px;
+}
+.cm-editor.cm-focused {
+  outline: none !important;
+}
+.cm-scroller {
+  font-family: 'JetBrains Mono', ui-monospace, monospace !important;
+  line-height: 1.65 !important;
+}
+
+.scroll-thin::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: rgba(127, 130, 160, 0.4);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.grid-dots {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.96);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.pop {
+  animation: pop 0.25s ease-out;
+}
