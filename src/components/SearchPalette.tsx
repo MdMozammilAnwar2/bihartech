@@ -49,7 +49,7 @@ export default function SearchPalette({ catalog, onClose }: { catalog: CourseMet
   const Icon = (k: string) => (k === 'quiz' ? ListChecks : k === 'code' ? FileCode2 : k === 'lab' ? FlaskConical : BookOpen);
 
   return (
-    <div className="fixed inset-0 z-[60] bg-navy/60 backdrop-blur-[2px] flex items-start justify-center pt-[10vh] px-4" onMouseDown={onClose}>
+    <div className="fixed inset-0 z-[60] bg-navy/60 backdrop-blur-[2px] flex items-start justify-center pt-4 sm:pt-[10vh] px-3 sm:px-4" onMouseDown={onClose}>
       <div className="w-full max-w-[640px] bg-white rounded-xl shadow-2xl border-2 border-navy overflow-hidden pop" onMouseDown={(e) => e.stopPropagation()} role="dialog" aria-label="Search lessons">
         <div className="flex items-center gap-3 px-4 border-b border-[#e2e3ea]">
           <Search size={18} className="text-ink-mute" />
@@ -71,9 +71,12 @@ export default function SearchPalette({ catalog, onClose }: { catalog: CourseMet
               if (e.key === 'Enter') go(results[sel]);
             }}
             placeholder="Search topics: loops, binary, SQL, stack, e-commerce…"
-            className="flex-1 h-14 outline-none text-[16px] bg-transparent"
+            className="flex-1 min-w-0 h-14 outline-none text-[16px] bg-transparent"
           />
-          <kbd className="font-mono text-[11px] text-ink-mute border border-[#d6d8e2] rounded px-1.5 py-0.5">Esc</kbd>
+          <button onClick={onClose} className="shrink-0 font-mono text-[11px] text-ink-mute border border-[#d6d8e2] rounded px-1.5 py-1" aria-label="Close search">
+            <span className="hidden sm:inline">Esc</span>
+            <span className="sm:hidden">Close</span>
+          </button>
         </div>
         <ul className="max-h-[55vh] overflow-auto scroll-thin py-2">
           {results.length === 0 && <li className="px-5 py-8 text-center text-ink-mute">No lessons match “{q}”. Try a shorter word.</li>}

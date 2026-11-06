@@ -22,7 +22,7 @@ export default function Quiz({ questions, onFinish, best }: Props) {
     const msg = pct >= 90 ? 'Outstanding! Board-exam ready.' : pct >= 70 ? 'Great work — revise the ones you missed.' : pct >= 40 ? 'Good effort. Re-read the lessons and try again.' : 'Keep going — go back through the chapter and retry.';
     return (
       <div className="pop">
-        <div className="rounded-xl bg-navy text-white p-8 relative overflow-hidden">
+        <div className="rounded-xl bg-navy text-white p-5 sm:p-8 relative overflow-hidden">
           <div className="absolute inset-0 grid-dots opacity-60" />
           <div className="relative flex flex-col sm:flex-row sm:items-center gap-6">
             <div className="w-28 h-28 rounded-full border-[6px] border-brand-yellow flex flex-col items-center justify-center shrink-0">
@@ -45,7 +45,7 @@ export default function Quiz({ questions, onFinish, best }: Props) {
             return (
               <li key={k} className="flex gap-3 rounded-lg border border-[#e2e3ea] p-4">
                 <span className={`w-7 h-7 rounded-full flex items-center justify-center shrink-0 ${ok ? 'bg-[#e6f7d1] text-[#2f6b00]' : 'bg-[#ffe3e0] text-[#b3150c]'}`}>{ok ? <Check size={15} /> : <X size={15} />}</span>
-                <div className="text-[15px]">
+                <div className="text-[15px] min-w-0">
                   <p className="font-semibold">
                     {k + 1}. {q.q}
                   </p>
@@ -103,7 +103,7 @@ export default function Quiz({ questions, onFinish, best }: Props) {
   return (
     <div>
       <div className="flex items-center gap-3 mb-6">
-        <span className="eyebrow text-ink-mute">
+        <span className="eyebrow text-ink-mute whitespace-nowrap">
           Question {i + 1} of {qs.length}
         </span>
         <div className="flex-1 flex gap-1">
@@ -113,9 +113,9 @@ export default function Quiz({ questions, onFinish, best }: Props) {
             return <span key={k} className="h-1.5 flex-1 rounded-full" style={{ background: c }} />;
           })}
         </div>
-        <span className="text-sm font-bold tabular-nums">{score} ✓</span>
+        <span className="text-sm font-bold tabular-nums whitespace-nowrap">{score} ✓</span>
       </div>
-      <h3 className="text-[22px] font-extrabold leading-snug" key={i}>
+      <h3 className="text-[19px] sm:text-[22px] font-extrabold leading-snug" key={i}>
         {q.q}
       </h3>
       {q.code && <pre className="mt-4 bg-navy text-[#e6e7ef] rounded-md px-4 py-3 font-mono text-[13.5px] overflow-x-auto" dangerouslySetInnerHTML={{ __html: highlightCpp(q.code) }} />}
@@ -148,7 +148,7 @@ export default function Quiz({ questions, onFinish, best }: Props) {
               >
                 {isAnswer ? <Check size={15} /> : isWrong ? <X size={15} /> : 'abcd'[k]}
               </span>
-              <span className="pt-0.5 text-[16px]">{o}</span>
+              <span className="pt-0.5 text-[16px] min-w-0">{o}</span>
             </button>
           );
         })}

@@ -111,7 +111,7 @@ function Callout({ b, dark, onOpenCode }: { b: Extract<Block, { t: 'callout' }>;
   const c = CALLOUT[b.kind] || CALLOUT.note;
   const Icon = c.icon;
   return (
-    <aside className="rounded-md px-5 py-4 flex gap-3.5 !mt-6" style={{ background: dark ? c.dbg : c.bg, borderLeft: `5px solid ${dark && b.kind === 'note' ? '#FFD300' : c.bar}` }}>
+    <aside className="rounded-md px-3.5 sm:px-5 py-4 flex gap-2.5 sm:gap-3.5 !mt-6" style={{ background: dark ? c.dbg : c.bg, borderLeft: `5px solid ${dark && b.kind === 'note' ? '#FFD300' : c.bar}` }}>
       <Icon size={20} className="shrink-0 mt-1" style={{ color: dark ? '#FFD300' : c.bar }} />
       <div className="min-w-0 [&>*+*]:mt-2 text-[16px]">
         {b.blocks.map((x, i) => (
@@ -138,15 +138,15 @@ function CodeBlock({ code, dark, onOpenCode, hasOutput }: { code: string; dark?:
   return (
     <div className={`rounded-md overflow-hidden border border-[#2c345c] !mt-5 ${hasOutput ? 'rounded-b-none' : ''}`}>
       <div className="flex items-center justify-between gap-2 bg-[#1C2448] px-3 py-1.5">
-        <div className="flex items-center gap-2 font-mono text-[12px] text-[#c9cce0]">
-          <span className="flex gap-1">
+        <div className="flex items-center gap-2 min-w-0 font-mono text-[12px] text-[#c9cce0]">
+          <span className="hidden min-[400px]:flex gap-1 shrink-0">
             <i className="w-2.5 h-2.5 rounded-full bg-[#ff5f57] inline-block" />
             <i className="w-2.5 h-2.5 rounded-full bg-[#febc2e] inline-block" />
             <i className="w-2.5 h-2.5 rounded-full bg-[#28c840] inline-block" />
           </span>
-          {fname}
+          <span className="truncate">{fname}</span>
         </div>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 shrink-0">
           <button onClick={copy} className="text-[#c9cce0] hover:text-white hover:bg-white/10 rounded px-2 py-1 text-xs font-semibold flex items-center gap-1" aria-label="Copy code">
             {copied ? <Check size={13} /> : <Copy size={13} />} {copied ? 'Copied' : 'Copy'}
           </button>

@@ -93,7 +93,7 @@ export default function CodePanel({ programs, active, setActive, storeKey }: Pro
           : 'Compiler starts on first run';
 
   return (
-    <div className="h-full flex flex-col bg-[#0E1430] text-white min-h-0">
+    <div className="h-full flex flex-col bg-[#0E1430] text-white min-h-0 overflow-y-auto scroll-thin">
       {/* tabs / program picker */}
       <div className="flex items-center justify-between gap-2 border-b border-navy-600 bg-navy pl-2 pr-2 h-11 shrink-0">
         <div className="relative min-w-0">
@@ -103,7 +103,7 @@ export default function CodePanel({ programs, active, setActive, storeKey }: Pro
             aria-haspopup="listbox"
             aria-expanded={menu}
           >
-            <span className="truncate max-w-[240px]">{fileNameOf(prog.code, active + 1)}</span>
+            <span className="truncate max-w-[45vw] lg:max-w-[240px]">{fileNameOf(prog.code, active + 1)}</span>
             {programs.length > 1 && (
               <>
                 <span className="text-[#9aa0c4] text-[11px] font-sans font-semibold">
@@ -142,7 +142,7 @@ export default function CodePanel({ programs, active, setActive, storeKey }: Pro
       </div>
 
       {/* editor */}
-      <div className="flex-1 min-h-[180px] relative">
+      <div className="flex-1 min-h-[220px] relative">
         <div className="absolute inset-0">
           <CodeEditor value={code} onChange={onChange} onRun={run} />
         </div>
@@ -205,7 +205,7 @@ export default function CodePanel({ programs, active, setActive, storeKey }: Pro
           )}
           {matches === true && view === 'output' && (
             <span className="ml-auto flex items-center gap-1.5 text-[12px] font-bold text-brand-mint pr-2 pop">
-              <CheckCircle2 size={15} /> Matches the book
+              <CheckCircle2 size={15} /> <span className="hidden min-[420px]:inline">Matches the book</span><span className="min-[420px]:hidden">Match</span>
             </span>
           )}
         </div>

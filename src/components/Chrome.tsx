@@ -21,7 +21,7 @@ export function SiteHeader({ onSearch, dark = false }: { onSearch: () => void; d
     <header className={`sticky top-0 z-40 ${dark ? 'bg-navy text-white border-b border-navy-600' : 'bg-white text-navy border-b border-[#e2e3ea]'}`}>
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6 h-16 flex items-center gap-4">
         <Logo light={dark} />
-        <nav className="hidden md:flex items-center gap-1 ml-6" aria-label="Main">
+        <nav className="hidden lg:flex items-center gap-1 ml-2 xl:ml-6" aria-label="Main">
           <a className={link} href="#catalog">
             Catalog
           </a>
@@ -40,22 +40,22 @@ export function SiteHeader({ onSearch, dark = false }: { onSearch: () => void; d
         </nav>
         <button
           onClick={onSearch}
-          className={`ml-auto flex items-center gap-2 rounded-md border px-3 py-2 text-sm w-[44px] sm:w-[240px] ${dark ? 'border-navy-500 text-[#c9cce0] hover:border-white' : 'border-[#c9ccd8] text-ink-mute hover:border-navy'}`}
+          className={`ml-auto flex items-center gap-2 rounded-md border px-3 py-2 text-sm w-[44px] shrink-0 sm:w-[240px] lg:w-[44px] xl:w-[240px] ${dark ? 'border-navy-500 text-[#c9cce0] hover:border-white' : 'border-[#c9ccd8] text-ink-mute hover:border-navy'}`}
           aria-label="Search lessons"
         >
           <Search size={16} className="shrink-0" />
-          <span className="hidden sm:inline">Search 700+ lessons</span>
-          <kbd className="hidden sm:inline ml-auto font-mono text-[11px] opacity-70">Ctrl K</kbd>
+          <span className="hidden sm:inline lg:hidden xl:inline">Search 700+ lessons</span>
+          <kbd className="hidden sm:inline lg:hidden xl:inline ml-auto font-mono text-[11px] opacity-70">Ctrl K</kbd>
         </button>
         <a href="#catalog" className="btn-yellow hidden sm:inline-flex py-2">
           Start learning
         </a>
-        <button className="md:hidden p-2" onClick={() => setOpen(!open)} aria-label="Open menu">
+        <button className="lg:hidden p-2 shrink-0" onClick={() => setOpen(!open)} aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open}>
           {open ? <X /> : <Menu />}
         </button>
       </div>
       {open && (
-        <nav className={`md:hidden px-4 pb-4 flex flex-col ${dark ? 'bg-navy' : 'bg-white'}`} onClick={() => setOpen(false)}>
+        <nav className={`lg:hidden px-4 pb-4 flex flex-col ${dark ? 'bg-navy' : 'bg-white'}`} onClick={() => setOpen(false)}>
           {['catalog', 'class-9', 'class-10', 'class-11', 'class-12'].map((s) => (
             <a key={s} href={`#${s}`} className="py-2.5 font-semibold border-b border-current/10 capitalize">
               {s.replace('-', ' ')}
@@ -69,8 +69,8 @@ export function SiteHeader({ onSearch, dark = false }: { onSearch: () => void; d
 
 export function SiteFooter() {
   return (
-    <footer className="bg-navy text-[#c9cce0] mt-24">
-      <div className="max-w-[1240px] mx-auto px-6 py-14 grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
+    <footer className="bg-navy text-[#c9cce0] mt-16 md:mt-24">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 py-12 md:py-14 grid grid-cols-1 gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <Logo light />
           <p className="mt-4 max-w-sm text-[15px] leading-relaxed">
@@ -102,7 +102,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-navy-600">
-        <p className="max-w-[1240px] mx-auto px-6 py-5 text-[13px]">© 2026 Er M M Anwar · Bihar Tech Publications, Patna. All rights reserved.</p>
+        <p className="max-w-[1240px] mx-auto px-4 sm:px-6 py-5 text-[13px]">© 2026 Er M M Anwar · Bihar Tech Publications, Patna. All rights reserved.</p>
       </div>
     </footer>
   );

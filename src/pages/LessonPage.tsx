@@ -72,7 +72,7 @@ export default function LessonPage({ course, chapterN, lessonN, onSearch }: Prop
   return (
     <div className="h-full flex flex-col bg-white">
       {/* top bar */}
-      <header className="h-14 shrink-0 bg-navy text-white flex items-center gap-3 px-3 sm:px-4 border-b border-navy-600 z-30">
+      <header className="h-14 [@media(max-height:500px)]:h-11 shrink-0 bg-navy text-white flex items-center gap-3 px-3 sm:px-4 border-b border-navy-600 z-30">
         <a href="#home" className="w-8 h-8 rounded-[6px] bg-brand-yellow border-2 border-white/0 flex items-center justify-center font-mono font-black text-navy text-[13px] shrink-0" aria-label="Home">
           {'{}'}
         </a>
@@ -128,13 +128,13 @@ export default function LessonPage({ course, chapterN, lessonN, onSearch }: Prop
           <div className="h-full flex flex-col lg:flex-row">
             <div className="lg:hidden flex shrink-0 bg-navy-800 border-b border-navy-600">
               {(['learn', 'code'] as const).map((t) => (
-                <button key={t} onClick={() => setMobileTab(t)} className={`flex-1 h-11 text-sm font-bold flex items-center justify-center gap-2 border-b-2 ${mobileTab === t ? 'text-white border-brand-yellow' : 'text-[#9aa0c4] border-transparent'}`}>
+                <button key={t} onClick={() => setMobileTab(t)} className={`flex-1 h-11 [@media(max-height:500px)]:h-9 text-sm font-bold flex items-center justify-center gap-2 border-b-2 ${mobileTab === t ? 'text-white border-brand-yellow' : 'text-[#9aa0c4] border-transparent'}`}>
                   {t === 'learn' ? <BookOpenText size={16} /> : <Code2 size={16} />} {t === 'learn' ? 'Learn' : 'Code editor'}
                 </button>
               ))}
             </div>
-            <div ref={scrollRef} className={`lg:w-[44%] xl:w-[42%] min-h-0 overflow-y-auto scroll-thin bg-navy-800 ${mobileTab === 'learn' ? 'flex-1 lg:flex-none' : 'hidden lg:block'}`}>
-              <article className="px-5 sm:px-8 py-8 max-w-[760px]">
+            <div ref={scrollRef} className={`min-w-0 lg:w-[44%] xl:w-[42%] min-h-0 overflow-y-auto scroll-thin bg-navy-800 ${mobileTab === 'learn' ? 'flex-1 lg:flex-none' : 'hidden lg:block'}`}>
+              <article className="px-4 sm:px-8 py-6 sm:py-8 max-w-[760px] mx-auto">
                 <LessonHeader kind={lesson.kind} hasCode title={lesson.title} n={lessonN} total={chMeta?.lessons.length ?? 0} minutes={lesson.minutes} dark />
                 <Content blocks={lesson.blocks} dark onOpenCode={openCode} />
                 <NextCard dark title={nextTitle} onNext={goNext} done={done} />
@@ -147,8 +147,8 @@ export default function LessonPage({ course, chapterN, lessonN, onSearch }: Prop
         )}
         {lesson && !isCode && (
           <div ref={scrollRef} className="h-full overflow-y-auto scroll-thin">
-            <div className="max-w-[1180px] mx-auto px-5 sm:px-8 py-10 grid xl:grid-cols-[1fr_250px] gap-12">
-              <article className="min-w-0 max-w-[780px]">
+            <div className="max-w-[1180px] mx-auto px-4 sm:px-8 py-6 sm:py-10 grid grid-cols-1 xl:grid-cols-[1fr_250px] gap-12">
+              <article className="min-w-0 max-w-[780px] w-full mx-auto xl:mx-0">
                 <LessonHeader kind={lesson.kind} hasCode={false} title={lesson.title} n={lessonN} total={chMeta?.lessons.length ?? 0} minutes={lesson.minutes} />
                 {lesson.kind === 'quiz' && lesson.quiz ? (
                   <div className="mt-2">
@@ -196,7 +196,7 @@ export default function LessonPage({ course, chapterN, lessonN, onSearch }: Prop
       </div>
 
       {/* bottom bar */}
-      <footer className="h-[60px] shrink-0 bg-navy text-white flex items-center gap-3 px-3 sm:px-5 border-t border-navy-600">
+      <footer className="h-[60px] [@media(max-height:500px)]:h-12 shrink-0 bg-navy text-white flex items-center gap-3 px-3 sm:px-5 border-t border-navy-600">
         {prevHash ? (
           <a href={prevHash} className="btn text-white border-2 border-navy-500 hover:border-white py-2 px-3 sm:px-4">
             <ArrowLeft size={16} /> <span className="hidden sm:inline">Back</span>
@@ -242,11 +242,11 @@ export default function LessonPage({ course, chapterN, lessonN, onSearch }: Prop
                           <a
                             href={lessonHash(course.slug, ch.n, i + 1)}
                             onClick={() => setDrawer(false)}
-                            className={`flex items-center gap-2.5 pl-14 pr-5 py-2 text-[14px] ${cur ? 'bg-[#f1edff] text-brand-hyper font-bold' : 'hover:bg-[#f7f7fa]'}`}
+                            className={`flex items-center gap-2.5 pl-8 sm:pl-14 pr-4 sm:pr-5 py-2 text-[14px] ${cur ? 'bg-[#f1edff] text-brand-hyper font-bold' : 'hover:bg-[#f7f7fa]'}`}
                           >
                             {d ? <CheckCircle2 size={15} className="text-[#5c9a00] shrink-0" /> : <Circle size={15} className="text-[#c9ccd8] shrink-0" />}
                             <I size={14} className="text-ink-mute shrink-0" />
-                            <span className="truncate">{l.title}</span>
+                            <span className="min-w-0 leading-snug">{l.title}</span>
                           </a>
                         </li>
                       );
@@ -270,7 +270,7 @@ function LessonHeader({ kind, hasCode, title, n, total, minutes, dark }: { kind:
       <p className={`eyebrow flex items-center gap-2 ${dark ? 'text-brand-yellow' : 'text-brand-hyper'}`}>
         <I size={14} /> {kindLabel(kind, hasCode)} {n} of {total} · {minutes} min
       </p>
-      <h1 className={`text-[32px] sm:text-[38px] font-black leading-[1.1] tracking-tight mt-3 ${dark ? 'text-white' : 'text-navy'}`}>{title.replace(/^\d+\.\d+\s+/, '')}</h1>
+      <h1 className={`text-[28px] sm:text-[38px] font-black leading-[1.1] tracking-tight mt-3 ${dark ? 'text-white' : 'text-navy'}`}>{title.replace(/^\d+\.\d+\s+/, '')}</h1>
       {/^\d+\.\d+\s/.test(title) && <p className={`font-mono text-[13px] mt-2 ${dark ? 'text-[#9aa0c4]' : 'text-ink-mute'}`}>Section {title.match(/^\d+\.\d+/)![0]}</p>}
     </div>
   );
@@ -286,7 +286,7 @@ function NextCard({ title, onNext, done, dark, quiz }: { title: string; onNext: 
         <p className={`text-[13px] ${dark ? 'text-[#9aa0c4]' : 'text-ink-mute'}`}>{done ? 'Completed · up next' : quiz ? 'Up next after the quiz' : 'Finished reading? Up next'}</p>
         <p className={`font-extrabold truncate ${dark ? 'text-white' : ''}`}>{title}</p>
       </div>
-      <button onClick={onNext} className="btn-yellow">
+      <button onClick={onNext} className="btn-yellow w-full sm:w-auto">
         {done || quiz ? 'Continue' : 'Mark complete & continue'} <ArrowRight size={16} />
       </button>
     </div>

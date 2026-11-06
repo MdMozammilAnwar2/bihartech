@@ -37,10 +37,10 @@ export default function Home({ catalog }: { catalog: CourseMeta[] }) {
       {/* HERO */}
       <section className="bg-navy text-white relative overflow-hidden">
         <div className="absolute inset-0 grid-dots" />
-        <div className="relative max-w-[1240px] mx-auto px-4 sm:px-6 py-16 md:py-20 grid lg:grid-cols-[1.05fr_1fr] gap-12 items-center">
-          <div>
+        <div className="relative max-w-[1240px] mx-auto px-4 sm:px-6 py-12 md:py-20 grid grid-cols-1 lg:grid-cols-[1.05fr_1fr] gap-12 items-center">
+          <div className="min-w-0">
             <p className="eyebrow text-brand-yellow">Class 9 – 12 · BSEB · CBSE · NCERT</p>
-            <h1 className="mt-4 text-[44px] sm:text-[58px] leading-[1.02] font-black tracking-tight">
+            <h1 className="mt-4 text-[clamp(2.1rem,9.5vw,3.625rem)] leading-[1.02] font-black tracking-tight">
               Learn computer science.
               <br />
               <span className="relative inline-block">
@@ -50,20 +50,20 @@ export default function Home({ catalog }: { catalog: CourseMeta[] }) {
                 </svg>
               </span>
             </h1>
-            <p className="mt-7 text-[19px] leading-relaxed text-[#d4d6e6] max-w-[560px]">
+            <p className="mt-7 text-[17px] sm:text-[19px] leading-relaxed text-[#d4d6e6] max-w-[560px]">
               Four complete textbooks turned into hands-on courses. Read a short lesson, run the program right beside it, then check yourself with the chapter quiz.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               {last && lastInfo ? (
-                <a href={lessonHash(last.slug, last.chapter, last.lesson)} className="btn-yellow text-[17px] px-6 py-3">
+                <a href={lessonHash(last.slug, last.chapter, last.lesson)} className="btn-yellow text-[17px] px-6 py-3 w-full sm:w-auto">
                   Resume {lastInfo.cls} <ArrowRight size={18} />
                 </a>
               ) : (
-                <a href={lessonHash('class-9', 10, 5)} className="btn-yellow text-[17px] px-6 py-3">
+                <a href={lessonHash('class-9', 10, 5)} className="btn-yellow text-[17px] px-6 py-3 w-full sm:w-auto">
                   <Play size={16} fill="currentColor" /> Write your first program
                 </a>
               )}
-              <a href="#catalog" className="btn-ghost-dark text-[17px] px-6 py-3">
+              <a href="#catalog" className="btn-ghost-dark text-[17px] px-6 py-3 w-full sm:w-auto">
                 Browse courses
               </a>
             </div>
@@ -84,7 +84,7 @@ export default function Home({ catalog }: { catalog: CourseMeta[] }) {
           </div>
 
           {/* mock workspace */}
-          <div className="relative">
+          <div className="relative min-w-0">
             <div className="absolute -inset-3 bg-brand-hyper rounded-xl rotate-[1.5deg]" aria-hidden />
             <div className="relative rounded-xl overflow-hidden border-2 border-[#2c345c] bg-[#0E1430] shadow-2xl">
               <div className="flex items-center gap-2 px-4 h-10 bg-navy border-b border-navy-600">
@@ -96,7 +96,7 @@ export default function Home({ catalog }: { catalog: CourseMeta[] }) {
                 <span className="font-mono text-[12px] text-[#c9cce0] ml-3 border-b-2 border-brand-yellow h-10 flex items-center px-2">main.cpp</span>
               </div>
               <pre className="px-5 py-4 font-mono text-[13.5px] leading-[1.75] text-[#e6e7ef] overflow-x-auto" dangerouslySetInnerHTML={{ __html: highlightCpp(SAMPLE) }} />
-              <div className="flex items-center gap-3 px-4 py-2.5 bg-navy border-t border-navy-600">
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-2 px-4 py-2.5 bg-navy border-t border-navy-600">
                 <span className="btn-yellow py-1.5 px-4 text-sm pointer-events-none">
                   <Play size={13} fill="currentColor" /> Run
                 </span>
@@ -105,7 +105,7 @@ export default function Home({ catalog }: { catalog: CourseMeta[] }) {
                   <CheckCircle2 size={14} /> Matches the book
                 </span>
               </div>
-              <pre className="bg-[#0b1024] px-5 py-3.5 font-mono text-[13.5px] text-[#e6e7ef] leading-relaxed">
+              <pre className="bg-[#0b1024] px-5 py-3.5 font-mono text-[13.5px] text-[#e6e7ef] leading-relaxed overflow-x-auto">
                 Namaste, Bihar!{'\n'}I am learning C++.{'\n'}
                 <span className="text-[#6c739c]">— finished with exit code 0</span>
               </pre>
@@ -133,10 +133,10 @@ export default function Home({ catalog }: { catalog: CourseMeta[] }) {
       )}
 
       {/* how it works */}
-      <section className="max-w-[1240px] mx-auto px-4 sm:px-6 pt-20">
+      <section className="max-w-[1240px] mx-auto px-4 sm:px-6 pt-16 md:pt-20">
         <p className="eyebrow text-brand-hyper">How every chapter works</p>
         <h2 className="text-[34px] sm:text-[40px] font-black tracking-tight mt-2 max-w-[700px] leading-tight">Read it. Run it. Prove you know it.</h2>
-        <div className="mt-10 grid md:grid-cols-4 gap-5">
+        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {[
             { icon: BookOpenText, t: 'Short lessons', d: 'Each chapter is split into bite-size sections with the book’s diagrams, tables and Indian everyday examples.', c: '#FFF0E5' },
             { icon: Code2, t: 'Run real C++', d: 'Every program opens in an editor beside the lesson. Change it, press Run, and compare your output with the book.', c: '#F5FCFF' },
@@ -155,7 +155,7 @@ export default function Home({ catalog }: { catalog: CourseMeta[] }) {
       </section>
 
       {/* catalog */}
-      <section id="catalog" className="max-w-[1240px] mx-auto px-4 sm:px-6 pt-24 scroll-mt-20">
+      <section id="catalog" className="max-w-[1240px] mx-auto px-4 sm:px-6 pt-16 md:pt-24 scroll-mt-20">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="eyebrow text-brand-hyper">Course catalog</p>
@@ -163,7 +163,7 @@ export default function Home({ catalog }: { catalog: CourseMeta[] }) {
           </div>
           <p className="text-ink-soft max-w-[460px]">Start at Class 9 if you have never programmed. Each course stands on its own, so you can also jump straight to your class.</p>
         </div>
-        <div className="mt-10 grid md:grid-cols-2 gap-6">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
           {catalog.map((c) => (
             <CourseCard key={c.slug} c={c} doneCount={courseDone(st, c.slug, c.chapters.flatMap((ch) => ch.lessons.map((l) => l.id)))} />
           ))}
@@ -171,12 +171,12 @@ export default function Home({ catalog }: { catalog: CourseMeta[] }) {
       </section>
 
       {/* path */}
-      <section className="max-w-[1240px] mx-auto px-4 sm:px-6 pt-24">
-        <div className="rounded-2xl bg-brand-beige border-2 border-navy p-8 md:p-12">
+      <section className="max-w-[1240px] mx-auto px-4 sm:px-6 pt-16 md:pt-24">
+        <div className="rounded-2xl bg-brand-beige border-2 border-navy p-5 sm:p-8 md:p-12">
           <p className="eyebrow text-brand-hyper">Career path</p>
           <h2 className="text-[32px] font-black tracking-tight mt-2">From first click to data structures</h2>
-          <ol className="mt-10 grid md:grid-cols-4 gap-8 relative">
-            <div className="hidden md:block absolute top-5 left-[6%] right-[6%] h-[3px] bg-navy" aria-hidden />
+          <ol className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+            <div className="hidden lg:block absolute top-5 left-[6%] right-[6%] h-[3px] bg-navy" aria-hidden />
             {catalog.map((c, i) => {
               const info = COURSE_INFO[c.slug];
               const firstCode = c.chapters.find((ch) => /C\+\+/.test(ch.title)) || c.chapters.find((ch) => ch.lessons.some((l) => l.hasCode));
@@ -206,7 +206,7 @@ export function CourseCard({ c, doneCount }: { c: CourseMeta; doneCount: number 
   return (
     <a href={`#${c.slug}`} className="group flex flex-col rounded-xl border-2 border-navy bg-white overflow-hidden hover:shadow-hard hover:-translate-x-1 hover:-translate-y-1 transition-all">
       <div className="px-6 pt-5 pb-14 relative" style={{ background: info.color, color: info.ink }}>
-        <div className="flex items-center justify-between">
+        <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
           <span className="eyebrow font-bold">{info.level} · Course</span>
           <span className="font-mono text-[12px] opacity-80">{info.board}</span>
         </div>
@@ -227,7 +227,7 @@ export function CourseCard({ c, doneCount }: { c: CourseMeta; doneCount: number 
             </span>
           ))}
         </div>
-        <div className="mt-auto pt-6 flex items-center gap-4 text-[13px] text-ink-soft font-semibold">
+        <div className="mt-auto pt-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-[13px] text-ink-soft font-semibold">
           <span>{c.chapters.length} chapters</span>
           <span>{lessons} lessons</span>
           <span className="flex items-center gap-1">

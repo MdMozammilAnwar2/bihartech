@@ -50,11 +50,11 @@ export default function CoursePage({ course }: { course: CourseMeta }) {
     <main>
       <section className="bg-navy text-white relative overflow-hidden">
         <div className="absolute inset-0 grid-dots" />
-        <div className="absolute right-[-80px] top-[-80px] w-[340px] h-[340px] rounded-full opacity-90" style={{ background: info.color }} aria-hidden />
-        <div className="absolute right-[60px] top-[70px] text-[150px] font-black leading-none text-navy/90 hidden md:block select-none" aria-hidden>
+        <div className="absolute right-[-70px] top-[-70px] w-[170px] h-[170px] lg:right-[-80px] lg:top-[-80px] lg:w-[340px] lg:h-[340px] rounded-full opacity-90" style={{ background: info.color }} aria-hidden />
+        <div className="absolute right-[60px] top-[70px] text-[150px] font-black leading-none text-navy/90 hidden lg:block select-none" aria-hidden>
           {info.cls.split(' ')[1]}
         </div>
-        <div className="relative max-w-[1240px] mx-auto px-4 sm:px-6 py-14">
+        <div className="relative max-w-[1240px] mx-auto px-4 sm:px-6 py-10 md:py-14">
           <nav className="text-[14px] text-[#9aa0c4] flex gap-2" aria-label="Breadcrumb">
             <a href="#catalog" className="hover:text-white">
               Catalog
@@ -65,16 +65,16 @@ export default function CoursePage({ course }: { course: CourseMeta }) {
           <p className="eyebrow text-brand-yellow mt-6">
             {info.level} course · {info.board}
           </p>
-          <h1 className="text-[38px] sm:text-[50px] font-black leading-[1.05] tracking-tight mt-3 max-w-[720px]">
+          <h1 className="text-[clamp(1.9rem,7.5vw,3.125rem)] font-black leading-[1.05] tracking-tight mt-3 max-w-[720px]">
             {info.short.replace(' with C++', '')} — {info.cls} <span className="text-brand-yellow">with C++</span>
           </h1>
-          <p className="mt-5 text-[18px] text-[#d4d6e6] max-w-[640px] leading-relaxed">{info.blurb}</p>
+          <p className="mt-5 text-[17px] sm:text-[18px] text-[#d4d6e6] max-w-[640px] leading-relaxed">{info.blurb}</p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <a href={lessonHash(course.slug, next.ch, next.l)} className="btn-yellow text-[17px] px-6 py-3">
               {done > 0 ? 'Resume course' : 'Start course'} <ArrowRight size={18} />
             </a>
             {done > 0 && (
-              <div className="flex items-center gap-3 min-w-[220px]">
+              <div className="flex items-center gap-3 w-full sm:w-auto sm:min-w-[220px]">
                 <div className="flex-1 h-2.5 rounded-full bg-navy-600 overflow-hidden">
                   <div className="h-full bg-brand-yellow" style={{ width: `${pct}%` }} />
                 </div>
@@ -88,8 +88,8 @@ export default function CoursePage({ course }: { course: CourseMeta }) {
         </div>
       </section>
 
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 py-12 grid lg:grid-cols-[1fr_340px] gap-10 items-start">
-        <section aria-labelledby="syllabus">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 py-8 md:py-12 grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-10 items-start">
+        <section aria-labelledby="syllabus" className="min-w-0">
           <h2 id="syllabus" className="text-[30px] font-black tracking-tight">
             Syllabus
           </h2>
@@ -108,7 +108,7 @@ export default function CoursePage({ course }: { course: CourseMeta }) {
                 <div key={ch.n}>
                   {showPart && <p className="eyebrow text-brand-hyper mt-8 mb-3">{ch.part}</p>}
                   <div className={`rounded-xl border-2 ${isOpen ? 'border-navy' : 'border-[#d6d8e2]'} bg-white overflow-hidden`}>
-                    <button className="w-full flex items-center gap-4 px-5 py-4 text-left hover:bg-[#fafafc]" onClick={() => setOpen({ ...open, [ch.n]: !isOpen })} aria-expanded={isOpen}>
+                    <button className="w-full flex items-center gap-3 sm:gap-4 px-4 sm:px-5 py-4 text-left hover:bg-[#fafafc]" onClick={() => setOpen({ ...open, [ch.n]: !isOpen })} aria-expanded={isOpen}>
                       <span
                         className={`w-11 h-11 shrink-0 rounded-lg flex items-center justify-center font-black text-[17px] border-2 ${complete ? 'bg-[#5c9a00] border-[#5c9a00] text-white' : 'border-navy'}`}
                         style={!complete ? { background: d > 0 ? info.color : '#fff', color: d > 0 ? info.ink : '#10162F' } : undefined}
@@ -116,7 +116,7 @@ export default function CoursePage({ course }: { course: CourseMeta }) {
                         {complete ? <CheckCircle2 size={20} /> : ch.n}
                       </span>
                       <span className="min-w-0 flex-1">
-                        <span className="block font-extrabold text-[18px] leading-snug">{ch.title}</span>
+                        <span className="block font-extrabold text-[17px] sm:text-[18px] leading-snug">{ch.title}</span>
                         <span className="block text-[13px] text-ink-mute mt-0.5">
                           {ch.lessons.length} lessons · {ch.lessons.reduce((a, l) => a + l.minutes, 0)} min
                           {ch.lessons.some((l) => l.hasCode) && ' · includes C++ code'}
@@ -133,17 +133,17 @@ export default function CoursePage({ course }: { course: CourseMeta }) {
                           const q = st.quiz[`${course.slug}:${l.id}`];
                           return (
                             <li key={l.id}>
-                              <a href={lessonHash(course.slug, ch.n, i + 1)} className="flex items-center gap-3.5 px-5 py-3 hover:bg-[#f5f3ff] group border-b border-[#f0f0f4] last:border-0">
+                              <a href={lessonHash(course.slug, ch.n, i + 1)} className="flex items-center gap-2.5 sm:gap-3.5 px-4 sm:px-5 py-3 hover:bg-[#f5f3ff] group border-b border-[#f0f0f4] last:border-0">
                                 {isDone ? <CheckCircle2 size={19} className="text-[#5c9a00] shrink-0" /> : <Circle size={19} className="text-[#c9ccd8] shrink-0" />}
                                 <I size={17} className="text-ink-mute shrink-0" />
-                                <span className="flex-1 min-w-0 truncate font-medium group-hover:text-brand-hyper">{l.title}</span>
+                                <span className="flex-1 min-w-0 sm:truncate leading-snug font-medium group-hover:text-brand-hyper">{l.title}</span>
                                 {q && (
                                   <span className="text-[12px] font-bold bg-[#f0fadf] text-[#3d7000] rounded px-1.5 py-0.5 tabular-nums">
                                     {q.best}/{q.total}
                                   </span>
                                 )}
                                 <span className="text-[12px] text-ink-mute hidden sm:inline">{kindLabel(l.kind, l.hasCode)}</span>
-                                <span className="text-[12px] text-ink-mute tabular-nums w-12 text-right">{l.minutes} min</span>
+                                <span className="text-[12px] text-ink-mute tabular-nums w-12 shrink-0 text-right">{l.minutes} min</span>
                               </a>
                             </li>
                           );
@@ -157,7 +157,7 @@ export default function CoursePage({ course }: { course: CourseMeta }) {
           </div>
         </section>
 
-        <aside className="lg:sticky lg:top-24 space-y-5">
+        <aside className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-5 items-start lg:sticky lg:top-24 min-w-0">
           <div className="rounded-xl border-2 border-navy p-6 bg-white shadow-hard">
             <h2 className="font-extrabold text-[19px]">About this course</h2>
             <ul className="mt-4 space-y-3 text-[15px]">
